@@ -2,6 +2,8 @@ import pandas_datareader.data as web
 import datetime as dt
 import matplotlib.pyplot as plt
 
+###Since Yahoo pulled their API the DataReader will not longer work. Can still work with a .csv###
+
 plt.style.use('ggplot')
 
 start = dt.datetime(2000, 1, 1)
